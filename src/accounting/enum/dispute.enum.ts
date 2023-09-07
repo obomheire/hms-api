@@ -1,0 +1,8 @@
+export enum DisputeStatus {
+    PENDING = 'PENDING',
+    RESOLVED = 'RESOLVED',
+    CLOSED = 'CLOSED',
+    WAITING_FOR_APPROVAL = 'WAITING_FOR_APPROVAL',
+    APPROVED = 'APPROVED',
+    DECLINED = 'DECLINED',
+}

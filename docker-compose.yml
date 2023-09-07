@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  hms_api_dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    working_dir: /app
+    networks:
+      - hms-network
+    ports:
+      - 5000:5000
+    command: [sh, -c, 'npm run start:dev']
+    volumes:
+      - .:/app:delegated
+      - /app/node_modules
+
+  webserver:
+    build:
+      context: ./
+      dockerfile: Dockerfile.nginx
+    ports:
+      - '80:80'
+    networks:
+      - hms-network
+
+networks:
+  hms-network:
+
+# To run this docker file use
+# docker compose up -d

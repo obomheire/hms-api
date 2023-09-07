@@ -1,0 +1,9 @@
+export enum ProductOrderEnum {
+    PENDING = "PENDING",
+    PROCESSING = "PROCESSING",
+    DELIVERED = "DELIVERED",
+    PAID = "PAID",
+    CANCELLED = "CANCELLED",
+    REFUNDED = "REFUNDED",
+    DISPENSED = "DISPENSED",
+}

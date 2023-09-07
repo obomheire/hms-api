@@ -1,0 +1,9 @@
+export enum TestStatusEnum {
+    PENDING = 'PENDING',
+    COMPLETED = 'COMPLETED',
+    CANCELLED = 'CANCELLED',
+    ONGOING = 'ONGOING',
+    PAID = 'PAID',
+    PENDING_LATER = 'PENDING_LATER',
+    PROCESSING = 'PROCESSING',
+}

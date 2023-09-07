@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+exports.LocalGovernmentsEnum = void 0;
+var localGovernments_enum_1 = require("./nigeria/localGovernments.enum");
+var localGovernments_enum_2 = require("./cameroon/localGovernments.enum");
+var localGovernments_enum_3 = require("./togo/localGovernments.enum");
+var localgovernement_Eum_1 = require("./ghana/localgovernement.Eum");
+var localGovernments_enum_4 = require("./benin/localGovernments.enum");
+var localgovernment_enum_1 = require("./niger/localgovernment.enum");
+exports.LocalGovernmentsEnum = Object.assign({}, localGovernments_enum_1.NigerianLocalGovernmentsEnum, localGovernments_enum_2.CameroonLocalGovernmentsEnum, localGovernments_enum_3.TogoLocalGovernmentsEnum, localgovernement_Eum_1.GhanaLocalGovernmentsEnum, localGovernments_enum_4.BeninLocalGovernmentsEnum, localgovernment_enum_1.NigerienLocalGovernmentEnum);

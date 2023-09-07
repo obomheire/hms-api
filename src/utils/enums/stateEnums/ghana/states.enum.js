@@ -1,0 +1,22 @@
+"use strict";
+exports.__esModule = true;
+exports.GhanaStatesEnum = void 0;
+var GhanaStatesEnum;
+(function (GhanaStatesEnum) {
+    GhanaStatesEnum["Ahafo Region"] = "Ahafo Region";
+    GhanaStatesEnum["Ashanti Region"] = "Ashanti Region";
+    GhanaStatesEnum["Bono Region"] = "Bono Region";
+    GhanaStatesEnum["Bono East Region"] = "Bono East Region";
+    GhanaStatesEnum["Central Region"] = "Central Region";
+    GhanaStatesEnum["Eastern Region"] = "Eastern Region";
+    GhanaStatesEnum["Greater Accra Region"] = "Greater Accra Region";
+    GhanaStatesEnum["Northern Region"] = "Northern Region";
+    GhanaStatesEnum["North East Region"] = "North East Region";
+    GhanaStatesEnum["Oti Region"] = "Oti Region";
+    GhanaStatesEnum["Savannah Region"] = "Savannah Region";
+    GhanaStatesEnum["Upper East Region"] = "Upper East Region";
+    GhanaStatesEnum["Upper West Region"] = "Upper West Region";
+    GhanaStatesEnum["Volta Region"] = "Volta Region";
+    GhanaStatesEnum["Western Region"] = "Western Region";
+    GhanaStatesEnum["Western North Region"] = "Western North Region";
+})(GhanaStatesEnum = exports.GhanaStatesEnum || (exports.GhanaStatesEnum = {}));

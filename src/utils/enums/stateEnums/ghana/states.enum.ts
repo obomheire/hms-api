@@ -1,0 +1,18 @@
+export enum GhanaStatesEnum {
+  'Ahafo Region' = 'Ahafo Region',
+  'Ashanti Region' = 'Ashanti Region',
+  'Bono Region' = 'Bono Region',
+  'Bono East Region' = 'Bono East Region',
+  'Central Region' = 'Central Region',
+  'Eastern Region' = 'Eastern Region',
+  'Greater Accra Region' = 'Greater Accra Region',
+  'Northern Region' = 'Northern Region',
+  'North East Region' = 'North East Region',
+  'Oti Region' = 'Oti Region',
+  'Savannah Region' = 'Savannah Region',
+  'Upper East Region' = 'Upper East Region',
+  'Upper West Region' = 'Upper West Region',
+  'Volta Region' = 'Volta Region',
+  'Western Region' = 'Western Region',
+  'Western North Region' = 'Western North Region',
+}
